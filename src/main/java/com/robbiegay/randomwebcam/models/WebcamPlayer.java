@@ -48,23 +48,30 @@ public class WebcamPlayer {
 }
 
 /*
-
-firstWebcam:
 {
-    "id": "1565261762",
-    "status": "active",
-    "title": "Zelezna Ruda: Rezidence Javor - Železná Ruda centrum",
-    "url":
-    {
-        "current": {
-            "desktop": "https://www.windy.com/webcams/1565261762",
-            "mobile": "https://www.windy.com/webcams/1565261762"
-        },
-        "edit": "https://www.windy.com/webcams/1565261762",
-        "daylight": {
-            "desktop": "https://www.windy.com/webcams/1565261762",
-            "mobile": "https://www.windy.com/webcams/1565261762"
-        }
+    "status": "OK",
+    "result": {
+        "offset": 0,
+        "limit": 10,
+        "total": 1,
+        "webcams": [
+            {
+                "id": "1565261762",
+                "status": "active",
+                "title": "Zelezna Ruda: Rezidence Javor - Železná Ruda centrum",
+                "url": {
+                    "current": {
+                        "desktop": "https://www.windy.com/webcams/1565261762",
+                        "mobile": "https://www.windy.com/webcams/1565261762"
+                    },
+                    "edit": "https://www.windy.com/webcams/1565261762",
+                    "daylight": {
+                        "desktop": "https://www.windy.com/webcams/1565261762",
+                        "mobile": "https://www.windy.com/webcams/1565261762"
+                    }
+                }
+            }
+        ]
     }
 }
  */

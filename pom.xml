@@ -12,7 +12,7 @@
 	<artifactId>random-webcam</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>random-webcam</name>
-	<description>Via a webcam somewhere in the world</description>
+	<description>View a webcam somewhere in the world</description>
 	<properties>
 		<java.version>11</java.version>
 	</properties>
@@ -33,6 +33,18 @@
             <version>0.0.20131108.vaadin1</version>
             <scope>compile</scope>
         </dependency>
+
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-databind</artifactId>
+			<version>2.12.3</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.google.code.gson</groupId>
+			<artifactId>gson</artifactId>
+			<version>2.8.7</version>
+		</dependency>
     </dependencies>
 
 	<build>
