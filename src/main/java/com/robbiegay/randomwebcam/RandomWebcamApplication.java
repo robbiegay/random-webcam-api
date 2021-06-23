@@ -32,7 +32,7 @@ public class RandomWebcamApplication {
 	private RestTemplate restTemplate;
 
 	// Remove before committing:
-	private String apiKey = "key";
+	private String apiKey = System.getenv("API_KEY");
 
 	@GetMapping("/randomWebcam")
 	public String gsonWebcam() {
