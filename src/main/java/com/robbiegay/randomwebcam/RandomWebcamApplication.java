@@ -55,6 +55,11 @@ public class RandomWebcamApplication {
 		return webcamId + "," + webcamTitle;
 	}
 
+	@GetMapping("/test")
+	public String test() {
+		return "{ \"test\": \"just a test\", \"why\": \"because I like tests\", \"how\": \"just returns some made up json\" }";
+	}
+
 	public class RandomWebcam {
 		public String status;
 		public Result result;
